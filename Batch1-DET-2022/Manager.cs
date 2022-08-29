@@ -24,7 +24,7 @@ namespace Batch1_DET_2022
             Teamsize = teamsize;
         }
 
-        public override string Print()
+        public  string Print()
         {
             return $"Emp Details={base.Print()}, Project={Project},Teamsize={Teamsize}";
         }
