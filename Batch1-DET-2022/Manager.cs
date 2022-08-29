@@ -18,7 +18,7 @@ namespace Batch1_DET_2022
         /// <param name="doj"></param>
         /// <param name="project"></param>
         /// <param name="teamsize"></param>
-        public Manager(int id, string name, DateOnly doj, string project, int teamsize) : base(id, name, doj)
+        public Manager(int id, string name, DateTime doj, string project, int teamsize) : base(id, name, doj)
         {
             this.Project = project;
             Teamsize = teamsize;

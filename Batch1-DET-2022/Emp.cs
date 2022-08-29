@@ -21,17 +21,17 @@ namespace Batch1_DET_2022
         {
             this.id = id; this.name = name; this.doj = doj;
         }
-        public Emp()
+        public Emp(int id, string name)
         {
             id = -1; name = "no name";
         }
-        public Emp(int id, string name)
+        public Emp(int id, string name, DateTime doj)
         {
             this.id = id; this.name = name;
         }
 
         //function written inside a class is known as method
-        public  int GetYearsofExp()
+        public int GetYearsofExp()
         {
             return DateTime.Now.Year - doj.Year;
         }
