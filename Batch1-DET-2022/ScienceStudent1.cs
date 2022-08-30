@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Batch1_DET_2022
 {
-    internal class ScienceStudent1:Student1
+    internal class ScienceStudent1 : Student1
     {
         public int physics { get; set; }
         public int chemistry { get; set; }
@@ -17,4 +17,5 @@ namespace Batch1_DET_2022
         {
             return (physics + chemistry + maths) / 3;
         }
+    }
 }
