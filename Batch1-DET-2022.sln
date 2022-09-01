@@ -5,9 +5,9 @@ VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Batch1-DET-2022", "Batch1-DET-2022\Batch1-DET-2022.csproj", "{6C366195-3919-471A-A56C-41727F7287FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Myclasslibrary", "Myclasslibrary\Myclasslibrary.csproj", "{B59CB4C7-172C-4D0F-8741-A5CF23C1CA68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Myclasslibrary", "Myclasslibrary\Myclasslibrary.csproj", "{B59CB4C7-172C-4D0F-8741-A5CF23C1CA68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject_MyLibrary", "TestProject_MyLibrary\TestProject_MyLibrary.csproj", "{5083C991-214F-4DEB-A261-D77CF91E9689}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject_MyLibrary", "TestProject_MyLibrary\TestProject_MyLibrary.csproj", "{5083C991-214F-4DEB-A261-D77CF91E9689}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
