@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript"
+    src="http://code.jquery.com/jquery.js">
+ </script>
+<script>
+    $(document).ready(function(){
+        $('#test').on('click',function(){
+          alert('Someone clicked me');  
+    });   
+    $('#test2').on('click',function(){
+          $('#test').click();
+    }); 
+    $('#test3').click(function(){  
+     alert('ID test3 clicked and I will ' +
+       'now turn off events for the div with an ID of test.');  
+     $('#test');  
+    }) 
+    $("test2").hover(
+    function(){ $(this).css('background‐color', '#00FF99'); },
+    function(){ $(this).css('background‐color', '#FFFFFF'); }
+   );
+   $("test").click(function(event){
+    alert("X=" + event.pageX + " \n Y=" + event.pageY);  
+});
+  });   
+  </script>
+</head>
+<body>
+
+    <div id="test">
+    click me
+    </div>
+    <br>
+    <div id="test2">
+        test2
+    </div>
+    <br>
+    <div id="test3">
+        This is test 3 
+    </div>
+    
+</body>
+</html>
