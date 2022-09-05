@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Batch1_DET_2022
 {
-    internal class Manager:Emp
+    internal class Manager:Emp22
     {
         public string Project { get; set; }
         public int Teamsize { get; set; }
