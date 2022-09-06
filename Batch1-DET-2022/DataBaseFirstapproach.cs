@@ -193,7 +193,7 @@ namespace Batch1_DET_2022
                 try
                 {
 
-                    var result = ctx.Database.ExecuteSqlRaw("newemppployy @empno, @ename, @job , @sal, @deptno", param);
+                    //var result = ctx.Database.ExecuteSqlRaw("newemppployy @empno, @ename, @job , @sal, @deptno", param);
 
                     //var result = ctx.Database.ExecuteSqlCommand("AddNewBook @id, @name, @price", param);
                     //// var result = ctx.Emps.FromSqlRaw("newemppployy @empno, @ename, @job , @sal, @deptno", param);
